@@ -1,0 +1,38 @@
+[
+	{
+        "bookingDate": "07.06.1984",
+        "chargedDate": "08.06.1984",
+        "type": "Visa",
+        "reference": "cash withdraw",
+        "description": "I took cash",
+        "value": {
+    	    "amount": 50,
+    	    "currency": "EUR"
+        },
+        "mode": "paid_to"
+    },
+	{
+        "bookingDate": "07.06.1984",
+        "chargedDate": "08.06.1984",
+        "type": "Visa",
+        "reference": "cash withdraw",
+        "description": "I took cash",
+        "value": {
+    	    "amount": 50,
+    	    "currency": "EUR"
+        },
+        "mode": "shared"
+    },
+    {
+        "bookingDate": "07.06.1984",
+        "chargedDate": "08.06.1984",
+        "type": "Visa",
+        "reference": "cash withdraw",
+        "description": "I took cash",
+        "value": {
+    	    "amount": 50,
+    	    "currency": "EUR"
+        },
+        "mode": "none"
+    }
+]
