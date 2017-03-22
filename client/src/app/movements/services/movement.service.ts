@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Movement } from './movement';
+import { Movement } from '../models/movement';
 import { MOVEMENTS } from './mock-movements';
 
 @Injectable()

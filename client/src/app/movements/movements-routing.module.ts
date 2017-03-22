@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { MovementListComponent } from './movement-list/movement-list.component';
+
 const appRoutes: Routes = [
-  { path: '',   redirectTo: '/movements', pathMatch: 'full' },
-  { path: '**', redirectTo: '/movements' }
+  { path: 'movements', component: MovementListComponent }
 ];
 
 @NgModule({
@@ -14,4 +15,4 @@ const appRoutes: Routes = [
     RouterModule
   ]
 })
-export class AppRoutingModule {}
+export class MovementsRoutingModule {}

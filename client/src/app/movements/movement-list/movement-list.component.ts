@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { Movement } from './movement';
-import { MovementService } from './movement.service';
+import { Movement } from '../models/movement';
+import { MovementService } from '../services/movement.service';
 
 @Component({
-  selector: 'app-movements',
-  templateUrl: './movements.component.html',
-  styleUrls: ['./movements.component.sass'],
+  selector: 'movement-list',
+  templateUrl: './movement-list.component.html',
+  styleUrls: ['./movement-list.component.sass'],
   providers: [MovementService]
 })
 
 
-export class MovementsComponent implements OnInit
+export class MovementListComponent implements OnInit
 {
   movements: Movement[];
 

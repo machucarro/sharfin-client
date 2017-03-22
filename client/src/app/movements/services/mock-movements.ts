@@ -1,4 +1,4 @@
-import { Movement } from "./movement";
+import { Movement } from "../models/movement";
 
 export const MOVEMENTS: Movement[] = 
 [
